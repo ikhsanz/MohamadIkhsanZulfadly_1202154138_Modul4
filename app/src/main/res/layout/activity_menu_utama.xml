@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.boncelius.asynctask.MenuUtama">
+
+    <Button
+        android:id="@+id/tmpl_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:layout_marginTop="148dp"
+        android:text="Tampil Nama"
+        android:onClick="tampilNama"
+        />
+
+    <Button
+        android:id="@+id/cari_gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tmpl_nama"
+        android:layout_alignStart="@+id/tmpl_nama"
+        android:layout_centerVertical="true"
+        android:onClick="tampilGambar"
+        android:text="Cari Gambar" />
+
+
+</RelativeLayout>
